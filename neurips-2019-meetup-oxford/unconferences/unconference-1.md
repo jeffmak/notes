@@ -14,5 +14,10 @@ Nothing much came out of the 45 minute discussion since the participants came fr
 
 ![](../../.gitbook/assets/img_6166%20%281%29.JPG)
 
-Concepts covered during the unconference included beta-VAE \(and its relation to variational inference\) and the possible relationship between disentanglement and causal inference.
+Concepts covered during the unconference included:
+
+* beta-VAE \(and its relation to variational inference\)
+* possible relationship between disentanglement and causal inference.
+* causal additive models
+* forming and scrambling fix-sized image blocks for unsupervised representation learning
 

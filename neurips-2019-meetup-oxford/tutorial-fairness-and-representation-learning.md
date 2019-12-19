@@ -56,17 +56,11 @@ Currently, it is challenging to create individually fair models with low trainin
 
 Since Lipschitz continuity implies individual fairness, fairness can be achieved by Lipschitz regularization. However, most high-dimensional data, e.g. images, are non-euclidian. Then the question becomes the following:
 
-Can we learn a representation of data such that
-
-$$
-\rho = || \cdot ||_2
-$$
-
-is a good metric for Lipschitz continuity?
+Can we learn a representation of data such that $$\rho = || \cdot ||_2$$ is a good metric for Lipschitz continuity?
 
 #### 2. Group Fairness
 
-* which statistic v\(f\|Y, s\) should be **equalized** across the groups
+* which statistic $$v(f|Y, s)$$ should be **equalized** across the groups
   * eg. can be measured by statistical parity \(i.e. computing the true positive rate and false positive rate\) using a confusion matrix
   * other measures include equal of opportunity and equalized odds
 * confusion matrix only has two degrees of freedom
@@ -83,7 +77,7 @@ is a good metric for Lipschitz continuity?
   * since a fairness measure ceases to be one when someone explicitly knows and exploits the measure
   * since all metrics have failure cases, we need to think about tradeoffs
 
-### **Metric Elicitation** \(for group fariness\)
+### **Metric Elicitation** \(for group fairness\)
 
 * need to pick good metric
 * solution: query experts until a good metric is selected
