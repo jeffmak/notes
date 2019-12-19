@@ -1,12 +1,13 @@
 ---
 description: >-
-  Explores a framework, which involves which ensures fairness is created from
+  Explores a framework, which involves the data regulator, data producer and
+  data user. Such a framework ensures that fairness is created from
   representation learning
 ---
 
 # Tutorial: Fairness and Representation Learning
 
-## Misc
+## Links
 
 Recording: [https://slideslive.com/38921491/representation-learning-and-fairness](https://slideslive.com/38921491/representation-learning-and-fairness) 
 
